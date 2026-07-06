@@ -47,4 +47,5 @@ function draw() {
   
   fill (255,255,0)//yellow color
   fill (0,0,0) //black color
+  fill (255,0,0)//red
 }
