@@ -49,8 +49,8 @@ function draw() {
   fill (255,255,0)//yellow color
   circle (300,200,200)
   fill (0,0,0) //black color
-  circle (250,150,20)
-  circle (350,150,20)
+  circle (250,160,20)
+  circle (350,160,20)
   fill (255,0,0)//red
   circle (370,215,40)
   circle (230,215,40)
