@@ -30,8 +30,9 @@ function draw() {
   // //add in one mouth
   // ellipse(300,250,80,40);
   // Challenge 3: A house using rect() function
-  rect(300,200,100,50);
-  rect(500,200,100,50,10,25,24,10);
+  // rect(300,200,100,50);
+  // rect(500,200,100,50,10,25,24,10);
+  rect
   // Challenge 4: A rocketship using triangle() function
 
   // Challenge 5: A square face using quad() function
