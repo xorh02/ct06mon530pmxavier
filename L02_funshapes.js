@@ -52,5 +52,5 @@ function draw() {
   circle (250,150,20)
   circle (350,150,20)
   fill (255,0,0)//red
-  circle (370,200,40)
+  circle (370,215,40)
 }
