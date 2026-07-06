@@ -50,5 +50,6 @@ function draw() {
   circle (300,200,200)
   fill (0,0,0) //black color
   circle (250,150,20)
+  circle (350,150,20)
   fill (255,0,0)//red
 }
