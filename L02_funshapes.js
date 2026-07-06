@@ -38,6 +38,7 @@ function draw() {
   // rect(250,300,100,150);
   // ellipse(320,350,20,50);
   // Challenge 4: A rocketship using triangle() function
+  fill ()
   triangle(100,200,250,230,10,10);
   // Challenge 5: A square face using quad() function
 
