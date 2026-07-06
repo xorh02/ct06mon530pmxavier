@@ -22,7 +22,7 @@ function draw() {
   //circle(x,y,diameter)
 
   circle(300,200,200);
-  circle(200,100,50)
+  circle(200,100,75);
   // Challenge 3: A house using rect() function
 
   // Challenge 4: A rocketship using triangle() function
