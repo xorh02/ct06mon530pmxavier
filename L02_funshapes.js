@@ -21,16 +21,16 @@ function draw() {
   // Challenge 2: A face using circle() function
   //circle(x,y,diameter)
 
-  circle(300,200,200);
-  circle(200,100,80);
-  circle(400,100,80);
-  //add in two eyes
-  circle(250,180,40);
-  circle(350,180,40);
-  //add in one mouth
-  ellipse(300,250,80,40);
+  // circle(300,200,200);
+  // circle(200,100,80);
+  // circle(400,100,80);
+  // //add in two eyes
+  // circle(250,180,40);
+  // circle(350,180,40);
+  // //add in one mouth
+  // ellipse(300,250,80,40);
   // Challenge 3: A house using rect() function
-
+  
   // Challenge 4: A rocketship using triangle() function
 
   // Challenge 5: A square face using quad() function
