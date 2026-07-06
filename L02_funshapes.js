@@ -25,7 +25,7 @@ function draw() {
   circle(200,100,80);
   circle(400,100,80);
   //add in two eyes
-  circle(250,150,20);
+  circle(250,200,40);
   //add in one mouth
   ellipse(300,250,80,40);
   // Challenge 3: A house using rect() function
