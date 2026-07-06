@@ -44,7 +44,7 @@ function draw() {
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
-    fill (255,150,0)
+  fill (255,150,0)//orange color 
   triangle(100,200,250,230,10,10);// tail
   fill (255,255,0)//yellow color
   circle (300,200,200)
