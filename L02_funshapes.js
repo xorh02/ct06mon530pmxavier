@@ -44,6 +44,7 @@ function draw() {
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
-  fill (0,0,0) //black color
+  
   fill (255,255,0)//yellow color
+  fill (0,0,0) //black color
 }
