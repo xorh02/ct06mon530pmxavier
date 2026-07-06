@@ -1,12 +1,27 @@
 /*
 Task 1: Add the setup() function
 */
+function setup(){
+   createCanvas(600,400);
+   background(220);
+
+}
 
 function draw() {
   // Challenge 1: An eye using ellipse() function
+  //fill(red,green,blue);
+  // ellipse(300,200,300,200);
+  // fill(255,0,0);
 
+  // ellipse(300,200,100,200);
+  // fill(0,255,0);
+
+  // ellipse(300,200,100,50);
+  // fill(0,0,255);
   // Challenge 2: A face using circle() function
+  //circle(x,y,diameter)
 
+  circle(100,200,20);
   // Challenge 3: A house using rect() function
 
   // Challenge 4: A rocketship using triangle() function
