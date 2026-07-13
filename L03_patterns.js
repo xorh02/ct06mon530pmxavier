@@ -8,8 +8,11 @@ function draw() {
   // Recap 1: Repeating Circles
   //how to create a for loop
 
-  // Task 1: Colour Gradient
-
+  // Task 1: Colour Gradient    
+    for(let i=10; i>0; i--){
+      fill(i *50);
+      rect(50+i*50,100,50,50);
+    }
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
