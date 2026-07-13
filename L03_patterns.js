@@ -6,7 +6,9 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
-  for ( let i = 0; i< 6 ; i++)
+  for ( let i = 0; i< 6 ; i++){
+    
+  }
   //how to create a for loop
   for(let i=0;i<5;i++){
 
