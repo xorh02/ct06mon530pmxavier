@@ -7,9 +7,10 @@ function setup() {
 function draw() {
   // Recap 1: Repeating Circles
   //how to create a for loop
+  let x = 0;
   for(let i=10; i>0; i--){
      fill(i *50);
-     rect(50+i*50,100,50,50);
+     rect(50+x*50,100,50,50);
   }
   // Task 1: Colour Gradient
 
