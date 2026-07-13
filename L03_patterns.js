@@ -6,10 +6,6 @@ function setup() {
   let colorval =0
 function draw() {
   // Recap 1: Repeating Circles
-  for(let i=0; i<5;i++) 
-  {
-  circle(50+i*50,100,50);
-    }
 
   // Task 1: Colour Gradient    
     for(let i=0; i<4; i++){
@@ -18,7 +14,6 @@ function draw() {
       }else{
         fill(255)
       }
-      
       circle(50+i*50,100,50);
     }
   // Task 2: Colour Loop
