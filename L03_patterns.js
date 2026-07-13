@@ -1,9 +1,10 @@
+  let colorval =0;
 function setup() {
     createCanvas(600, 400);
     background(220);
     noLoop(); // Stops continuous drawing
   }
-  let colorval =0
+
 function draw() {
   // Recap 1: Repeating Circles
 
