@@ -9,7 +9,7 @@ function draw() {
   //how to create a for loop
   for(let i=10; i>0; i--){
      fill(i *50);
-     rect(50+i*50,100,50,50);
+     rect(50+i*-50,100,50,50);
   }
   // Task 1: Colour Gradient
 
