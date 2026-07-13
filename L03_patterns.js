@@ -11,6 +11,7 @@ function draw() {
   for(let i=10; i>0; i--){
      fill(i *50);
      rect(50+x*50,100,50,50);
+     ++x;
   }
   // Task 1: Colour Gradient
 
