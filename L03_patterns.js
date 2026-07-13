@@ -14,7 +14,9 @@ function draw() {
   // Task 1: Colour Gradient    
     for(let i=10; i>0; i--){
       if(colorval %2 ===0){
-        fill()
+        fill(0)
+      }else{
+        fill(255)
       }
       fill(i *50);
       circle(50+i*50,100,50,50);
