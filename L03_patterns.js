@@ -27,7 +27,7 @@ function draw() {
   let startY = diameter/2;
   let startX =  diameter/2;
 
-  for(let row=0;i<numCircle;row++){
+  for(let row=0;row<numCircle;row++){
     let rowY = startY +(diameter *row); 
     for(let i=0; i<numCircle; i++){
     let x = startX + i * diameter;
