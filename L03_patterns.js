@@ -24,12 +24,15 @@ function draw() {
   let diameter = 30;
   let numCircle = 5;
   let totalwidth = numCircle * diameter;
-  let startY = 
+  let startY = diameter/2;
   let startX =  diameter/2;
+
+  for(let i=0;i<numCircle;i++){
   for(let i=0; i<numCircle; i++){
     let x = startX + i * diameter;
     ellipse(x,15,diameter,diameter);
   }
+}
   // Task 4: Grid of Circles
 
 }
