@@ -1,5 +1,5 @@
 // write your codes here
-
+let shapeColor = 'blue';
 //type in the two basic function
 function setup(){
   createCanvas(400,400);
@@ -14,12 +14,9 @@ function draw(){
         circle(mouseX ,mouseY, 30);
         //mouseX is the x position of my mouse, mouseY is the y position of my mouse
     }
-
     //mousePressed()
-
-
     //mouseReleased()
 }
 function mousePressed(){
-    
+
 }
