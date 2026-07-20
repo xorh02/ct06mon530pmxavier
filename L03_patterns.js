@@ -29,6 +29,7 @@ function draw() {
 
   for(let row=0;row<numCircle;row++){
     let rowY = startY +(diameter *row); 
+    
     for(let i=0; i<numCircle; i++){
     let x = startX + i * diameter;
     ellipse(x,rowY,diameter,diameter);
