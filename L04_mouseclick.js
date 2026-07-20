@@ -22,7 +22,7 @@ function draw(){
     //Task 1: Random Color Preview
     fill(shapeColor)
     // circle(200,200,300);
-    if(mousePressed()){
+    if(isshape){
         triangle(x1,y1,x2,y2,x3,y3 );
     }
 }
