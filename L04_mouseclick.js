@@ -12,7 +12,7 @@ function draw(){
         fill(0,0 + i*25,0);
       //circle (x position , y position , diameter);
         circle(mouseX ,mouseY, 30);
-        //
+        //mouseX is the x position of my mouse, mouseY is the y position of my mouse
     }
 
 
