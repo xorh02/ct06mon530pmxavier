@@ -25,7 +25,9 @@ function draw(){
 }
 function mousePressed(){
     shapeColor = color(random(255),random(255),random(255));
-    
+    x1 =
+    y1=
+    x2
 }
 function mouseReleased(){
     shapeColor = 'white';
