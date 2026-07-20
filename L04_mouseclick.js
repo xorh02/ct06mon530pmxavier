@@ -19,7 +19,7 @@ function draw(){
 
     //Task 1: Random Color Preview
     fill(shapeColor)
-    circle(200,200,300);
+    // circle(200,200,300);
     triangle(random(0,400),random(0,400),random(0,400),random(0,400),random(0,400),random(0,400)  );
 }
 function mousePressed(){
