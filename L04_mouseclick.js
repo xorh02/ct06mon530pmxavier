@@ -25,6 +25,9 @@ function draw(){
     triangle(x1,y1,x2,y2,x3,y3 );
     
 }
+function mouseMoved(){
+    
+}
 function mousePressed(){
     shapeColor = color(random(255),random(255),random(255));
     x1 = random(400);
