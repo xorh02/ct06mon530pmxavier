@@ -26,7 +26,7 @@ function draw() {
   let totalwidth = (width - totalwidth)/2 + diameter/2;
   for(let i=0; i<numCircle; i++){
     let x = startX + i * diameter;
-    ellipse(x,height/2,diameter,ci)
+    ellipse(x,height/2,diameter,diameter);
   }
   // Task 4: Grid of Circles
 }
