@@ -22,7 +22,7 @@ function draw(){
     fill(shapeColor)
     // circle(200,200,300);
     if(mousePressed()){
-    triangle(x1,y1,x2,y2,x3,y3 );
+        triangle(x1,y1,x2,y2,x3,y3 );
     }
 }
 function mousePressed(){
