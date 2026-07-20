@@ -16,7 +16,10 @@ function draw(){
     }
 
     //mousePressed()
+
+
+    //mouseReleased()
+}
+function mousePressed(){
     
-
-
 }
