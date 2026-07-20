@@ -22,13 +22,13 @@ function draw(){
     //Task 1: Random Color Preview
     fill(shapeColor)
     // circle(200,200,300);
-    if(isshape){
-        triangle(x1,y1,x2,y2,x3,y3 );
-    }
+  
+    triangle(x1,y1,x2,y2,x3,y3 );
+    
 }
 function mousePressed(){
     shapeColor = color(random(255),random(255),random(255));
-    isshape = true;
+  
     x1 = random(400);
     y1 = random(400);
     x2 = random(400);
@@ -38,5 +38,5 @@ function mousePressed(){
 }
 function mouseReleased(){
     shapeColor = 'white';
-    isshape = false;
+ 
 }
