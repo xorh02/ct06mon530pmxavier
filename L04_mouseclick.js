@@ -1,7 +1,7 @@
 // write your codes here
 let shapeColor = 'white';
 let x1,x2,x3,y1,y2,y3;
-let isshape = false;
+
 //type in the two basic function
 function setup(){
   createCanvas(400,400);
@@ -22,13 +22,11 @@ function draw(){
     //Task 1: Random Color Preview
     fill(shapeColor)
     // circle(200,200,300);
-  
     triangle(x1,y1,x2,y2,x3,y3 );
     
 }
 function mousePressed(){
     shapeColor = color(random(255),random(255),random(255));
-  
     x1 = random(400);
     y1 = random(400);
     x2 = random(400);
