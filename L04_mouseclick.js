@@ -2,7 +2,8 @@
 
 //type in the two basic function
 function setup(){
-
+  new Canvas(400,400);
+  background(220);
 
 
 }
@@ -12,5 +13,5 @@ function setup(){
 function draw(){
 
 
-    
+
 }
