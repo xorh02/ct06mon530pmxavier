@@ -1,5 +1,5 @@
 // write your codes here
-let shapeColor = 'blue';
+let shapeColor = 'white';
 //type in the two basic function
 function setup(){
   createCanvas(400,400);
@@ -22,8 +22,8 @@ function draw(){
     circle(200,200,300);
 }
 function mousePressed(){
-    shapeColor = random(0,255);
+    shapeColor = color(random(255),random(255),random(255));
 }
 function mouseReleased(){
-    shapeColor = color(random(255),random(255),random(255));
+    shapeColor = 'white';
 }
