@@ -34,5 +34,10 @@ function mousePressed(){
 }
 function mouseReleased(){
     shapeColor = 'white';
-    
+      x1 = random(400);
+    y1 = random(400);
+    x2 = random(400);
+    y2 = 0;
+    x3 = 0;
+    y3 =0;
 }
