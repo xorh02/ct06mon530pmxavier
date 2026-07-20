@@ -1,6 +1,7 @@
 // write your codes here
 let shapeColor = 'white';
 let x1,x2,x3,y1,y2,y3;
+boo
 //type in the two basic function
 function setup(){
   createCanvas(400,400);
@@ -22,11 +23,17 @@ function draw(){
     fill(shapeColor)
     // circle(200,200,300);
     if(mousePressed()){
-        triangle(random(400),random(400),random(400),random(400),random(400),random(400));
+        triangle(x1,y1,x2,y2,x3,y3 );
     }
 }
 function mousePressed(){
     shapeColor = color(random(255),random(255),random(255));
+    x1 = random(400);
+    y1 = random(400);
+    x2 = random(400);
+    y2 = random(400);
+    x3 = random(400);
+    y3 = random(400);
 }
 function mouseReleased(){
     shapeColor = 'white';
