@@ -33,7 +33,7 @@ function draw() {
     let x = startX + i * diameter;
     ellipse(x,rowY,diameter,diameter);
   }
-}
+  }
   // Task 4: Grid of Circles
 
 }
