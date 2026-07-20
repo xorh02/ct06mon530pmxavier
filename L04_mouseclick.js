@@ -1,5 +1,6 @@
 // write your codes here
 let shapeColor = 'white';
+let x1,x2,x3,y1,y2,y3;
 //type in the two basic function
 function setup(){
   createCanvas(400,400);
