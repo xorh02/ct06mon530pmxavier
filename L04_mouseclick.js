@@ -17,7 +17,8 @@ function draw(){
     //mousePressed()
     //mouseReleased()
 
-    //
+    //Task 1: Random Color Preview
+    
 }
 function mousePressed(){
     shapeColor = random(0,255);
