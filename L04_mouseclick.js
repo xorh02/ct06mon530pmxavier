@@ -26,7 +26,7 @@ function draw(){
     
 }
 function mouseMoved(){
-    
+    quad(mouseX,mouseY,)
 }
 function mousePressed(){
     shapeColor = color(random(255),random(255),random(255));
