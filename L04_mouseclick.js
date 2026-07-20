@@ -28,6 +28,7 @@ function draw(){
 }
 function mousePressed(){
     shapeColor = color(random(255),random(255),random(255));
+    isshape = true;
     x1 = random(400);
     y1 = random(400);
     x2 = random(400);
@@ -37,5 +38,5 @@ function mousePressed(){
 }
 function mouseReleased(){
     shapeColor = 'white';
-    
+    isshape = false;
 }
