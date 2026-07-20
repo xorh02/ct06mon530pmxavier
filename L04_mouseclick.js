@@ -18,7 +18,7 @@ function draw(){
     //mouseReleased()
 
     //Task 1: Random Color Preview
-    fill()
+    fill(shapeColor)
     circle(200,200,300);
 }
 function mousePressed(){
