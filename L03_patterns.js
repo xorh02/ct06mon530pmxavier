@@ -23,6 +23,6 @@ function draw() {
   // Task 3: Row of Circles
   let diameter = 30;
   let numCircle = 5;
-  
+  let totalwidth = (width - totalwidth)
   // Task 4: Grid of Circles
 }
