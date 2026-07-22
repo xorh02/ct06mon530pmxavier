@@ -18,9 +18,9 @@ function draw() {
   // Task 2: Colour Loop
   for(let i=0;i<10;i++){
     if(i%4 ===0){
-      fill(0);
+      fill(0,0,0);
     }else if(i%4===1){
-      fill(100);
+      fill(255,0,0);
     }else if(i%4===2){
       fill(150);
     }else{
