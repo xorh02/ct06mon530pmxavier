@@ -36,7 +36,7 @@ function draw() {
   for(let i =0;i<5;i++){
     if(i%2===0){
       fill(255);
-    }else
+    }else{fill(0)}
     circle(startX + i*50,300,50);
   }
 
