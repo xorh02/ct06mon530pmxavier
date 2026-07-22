@@ -35,9 +35,9 @@ function draw() {
   let numofcircle = 5;
   let totalwidth = circlediamter * numofcircle;
   let startX =  (width - totalwidth)/2 + circlediamter/2;
-  let startY =  (height - totalwidth)/2 +circlediamter/2;
+  let startY =  (height - totalwidth)/2 + circlediamter/2;
   for(let row = 0;row<numofcircle;row++){
-    let y = startY + (row*circlediamter);
+    let y = startY + (row * circlediamter);
     for(let i =0;i<numofcircle;i++){
       if(i%2===0){
         fill(255,0,255);
