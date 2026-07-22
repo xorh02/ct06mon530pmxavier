@@ -34,8 +34,8 @@ function draw() {
   let circlediamter = 30;
   let numofcircle = 5;
   let totalwidth = circlediamter * numofcircle;
-  let startX =  (width - totalwidth)/2 + circlediamter/2;
-  let startY =  (height - totalwidth)/2 + circlediamter/2;
+  let startX =   circlediamter/2;
+  let startY =   circlediamter/2;
   for(let row = 0;row<numofcircle;row++){
     let y = startY + (row * circlediamter);
     for(let i =0;i < numofcircle;i++){
