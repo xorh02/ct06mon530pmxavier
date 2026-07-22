@@ -37,7 +37,7 @@ function draw() {
     if(i%2===0){
       fill(255);
     }else{fill(0)}
-    circle(startX + i*50,300,50);
+    circle(startX + i*circlediamter,300,50);
   }
 
   // Task 4: Grid of Circles
