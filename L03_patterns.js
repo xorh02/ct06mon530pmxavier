@@ -30,7 +30,9 @@ function draw() {
   }
   // Task 3: Row of Circles
   let circlediamter = 30;
-  let numofcircle = 
+  let numofcircle = 5;
+  let totalwidth = circlediamter * numofcircle;
+  
 
   // Task 4: Grid of Circles
 
