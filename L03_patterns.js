@@ -26,10 +26,10 @@ function draw() {
       fill(0,0,255);
     }
     //your task add in a line to generate circle
-    circle(50+i*50,300,50);
+    circle(50+i*50,200,50);
   }
   // Task 3: Row of Circles
-  
+  let circlediamter = 
 
   // Task 4: Grid of Circles
 
