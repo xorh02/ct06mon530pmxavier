@@ -42,7 +42,7 @@ function draw() {
       }else{
         fill(0)
       }
-      circle(startX + i*circlediamter,startY,circlediamter);
+      circle(startX + i*circlediamter,y,circlediamter);
     }
   }
   // Task 4: Grid of Circles
