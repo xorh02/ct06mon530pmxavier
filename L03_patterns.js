@@ -41,8 +41,7 @@ function draw() {
     }
     circle(startX + i*50,300,50);
   }
-
   // Task 4: Grid of Circles
-
+  
 
 }
