@@ -40,7 +40,7 @@ function draw() {
     let y = startY + (row * circlediamter);
     for(let i =0;i < numofcircle;i++){
       if(i%2===0){
-        fill(255,0,255);
+        fill(255,,0);
       }else{
         fill(100,0,255);
       }
