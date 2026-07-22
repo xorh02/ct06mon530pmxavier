@@ -29,7 +29,8 @@ function draw() {
     circle(50+i*50,200,50);
   }
   // Task 3: Row of Circles
-  let circlediamter = 
+  let circlediamter = 30;
+  let numofcircle = 
 
   // Task 4: Grid of Circles
 
