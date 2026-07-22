@@ -12,7 +12,7 @@ function draw() {
   circle(100,100,20);
   for(let i =0;i <10;i++){
     fill(255-(i*50)); //fill(0)->black fill(255) -> white questions wants u to go from white to black from 255 to 0
-    rect(50+i*50,100,40,40);
+    rect(50+i*50,50,40,40);
   }
   // Task 2: Colour Loop rgb stands for red green blue
   for(let i=0;i<10;i++){
@@ -26,7 +26,7 @@ function draw() {
       fill(0,0,255);
     }
     //your task add in a line to generate circle
-    circle(50+i*50,200,50);
+    circle(50+i*50,100,50);
   }
   // Task 3: Row of Circles
   let circlediamter = 30;
