@@ -19,6 +19,8 @@ function draw() {
   for(let i=0;i<10;i++){
     if(i%3 ===0){
       fill(0);
+    }else if(i%3===1){
+      fill()
     }else{
       fill(255);
     }
