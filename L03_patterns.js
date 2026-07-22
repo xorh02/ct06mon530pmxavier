@@ -33,6 +33,7 @@ function draw() {
   let numofcircle = 5;
   let totalwidth = circlediamter * numofcircle;
   let startX =  (width - totalwidth)/2+circlediamter/2;
+  let startY = (height-total)
   for(let i =0;i<6;i++){
     if(i%2===0){
       fill(255);
