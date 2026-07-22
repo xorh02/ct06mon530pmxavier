@@ -28,14 +28,14 @@ function draw() {
     //your task add in a line to generate circle
     circle(50+i*50,100,50);
   }
-  
+
   // Task 3: Row of Circles
   // Task 4: Grid of Circles
   let circlediamter = 30;
   let numofcircle = 5;
   let totalwidth = circlediamter * numofcircle;
   let startX =  (width - totalwidth)/2+circlediamter/2;
-  let startY = (height-totalwidth)/2 +circlediamter/2;
+  let startY =  (height-totalwidth)/2 +circlediamter/2;
   for(let row = 0;row<numofcircle;row++){
     let y = startY + (row*circlediamter);
     for(let i =0;i<numofcircle;i++){
