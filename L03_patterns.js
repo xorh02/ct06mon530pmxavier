@@ -34,7 +34,9 @@ function draw() {
   let totalwidth = circlediamter * numofcircle;
   let startX = width/2 - totalwidth/2
   for(let i =0;i<5;i++){
-    if(i%2===)
+    if(i%2===0){
+      fill(255);
+    }else
     circle(startX + i*50,300,50);
   }
 
