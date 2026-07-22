@@ -22,8 +22,8 @@ function draw() {
     }else{
       fill(255);
     }
-    //your task add in a line to generate 
-
+    //your task add in a line to generate circle
+    
   }
   // Task 3: Row of Circles
   
