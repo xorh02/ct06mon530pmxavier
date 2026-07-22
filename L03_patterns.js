@@ -22,9 +22,8 @@ function draw() {
     }else if(i%4===1){
       fill(100);
     }else if(i%4===2){
-      fill()
-    }
-    else{
+      fill(150);
+    }else{
       fill(255);
     }
     //your task add in a line to generate circle
