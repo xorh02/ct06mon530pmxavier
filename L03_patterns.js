@@ -19,9 +19,12 @@ function draw() {
   for(let i=0;i<10;i++){
     if(i%4 ===0){
       fill(0);
-    }else if(i%3===1){
+    }else if(i%4===1){
       fill(100);
-    }else{
+    }else if(i%4===2){
+      fill()
+    }
+    else{
       fill(255);
     }
     //your task add in a line to generate circle
