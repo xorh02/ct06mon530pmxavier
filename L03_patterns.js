@@ -34,15 +34,15 @@ function draw() {
   let totalwidth = circlediamter * numofcircle;
   let startX =  (width - totalwidth)/2+circlediamter/2;
   let startY = (height-totalwidth)/2 +circlediamter/2;
-  
-  for(let i =0;i<6;i++){
-    if(i%2===0){
-      fill(255);
-    }else{
-      fill(0)
+  for(let row = 0;row<numofcircle;)
+    for(let i =0;i<6;i++){
+      if(i%2===0){
+        fill(255);
+      }else{
+        fill(0)
+      }
+      circle(startX + i*circlediamter,300,circlediamter);
     }
-    circle(startX + i*circlediamter,300,circlediamter);
-  }
   // Task 4: Grid of Circles
   
 
