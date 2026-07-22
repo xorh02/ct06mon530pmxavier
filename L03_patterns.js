@@ -9,7 +9,7 @@ function draw() {
   
   // Task 1: Colour Gradient    
   fill(23);
-  circle(100,100,20);
+  circle(100,175,20);
   for(let i =0;i <10;i++){
     fill(255-(i*50)); //fill(0)->black fill(255) -> white questions wants u to go from white to black from 255 to 0
     rect(50+i*50,200,40,40);
