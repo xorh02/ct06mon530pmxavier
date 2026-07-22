@@ -17,7 +17,7 @@ function draw() {
   }
   // Task 2: Colour Loop
   for(let i=0;i<10;i++){
-    if(i%2 ===0){
+    if(i%3 ===0){
       fill(0);
     }else{
       fill(255);
