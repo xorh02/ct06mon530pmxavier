@@ -16,7 +16,12 @@ function draw() {
 
   }
   // Task 2: Colour Loop
-  if(i%2 ===0)
+  for(let i=0;i<10;i++){
+  if(i%2 ===0){
+    fill(0);
+  }else{
+    fill(255);
+  }
   // Task 3: Row of Circles
   
 
