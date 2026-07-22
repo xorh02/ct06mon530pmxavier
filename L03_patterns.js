@@ -39,7 +39,7 @@ function draw() {
     }else{
       fill(0)
     }
-    circle(startX + i*50,300,50);
+    circle(startX + i*circlediamter,300,circlediamter);
   }
   // Task 4: Grid of Circles
   
