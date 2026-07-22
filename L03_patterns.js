@@ -29,6 +29,7 @@ function draw() {
     circle(50+i*50,100,50);
   }
   // Task 3: Row of Circles
+    // Task 4: Grid of Circles
   let circlediamter = 30;
   let numofcircle = 5;
   let totalwidth = circlediamter * numofcircle;
@@ -38,14 +39,14 @@ function draw() {
     let y = startY + (row*circlediamter);
     for(let i =0;i<numofcircle;i++){
       if(i%2===0){
-        fill(255);
+        fill(255,0,255);
       }else{
         fill(0)
       }
       circle(startX + i*circlediamter,y,circlediamter);
     }
   }
-  // Task 4: Grid of Circles
+
   
 
 }
