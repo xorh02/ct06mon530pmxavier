@@ -34,7 +34,7 @@ function draw() {
   let totalwidth = circlediamter * numofcircle;
   let startX = width/2 - totalwidth/2
   for(let i =0;i<5;i++){
-    
+    circle()
   }
 
   // Task 4: Grid of Circles
