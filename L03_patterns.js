@@ -41,7 +41,7 @@ function draw() {
       if(i%2===0){
         fill(255,0,255);
       }else{
-        fill(0)
+        fill(100,255,255);
       }
       circle(startX + i*circlediamter,y,circlediamter);
     }
