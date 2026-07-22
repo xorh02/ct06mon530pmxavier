@@ -22,9 +22,9 @@ function draw() {
     }else if(i%4===1){
       fill(255,0,0);
     }else if(i%4===2){
-      fill(150);
+      fill(0,255,0);
     }else{
-      fill(255);
+      fill(0,0,255);
     }
     //your task add in a line to generate circle
     circle(50+i*50,300,50)
