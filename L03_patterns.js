@@ -15,7 +15,7 @@ function draw() {
     rect(50+i*50,100,40,40);
 
   }
-  // Task 2: Colour Loop
+  // Task 2: Colour Loop rgb stands for red green blue
   for(let i=0;i<10;i++){
     if(i%4 ===0){
       fill(0,0,0);
