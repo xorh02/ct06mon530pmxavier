@@ -11,7 +11,8 @@ function draw() {
   fill(23);
   circle(100,100,20);
   for(let i =0;i <10;i++){
-    fill()
+    fill();
+    square(50+i*50,100,40,40)
   }
   // Task 2: Colour Loop
 
