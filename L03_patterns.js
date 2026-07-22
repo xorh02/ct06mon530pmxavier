@@ -23,7 +23,7 @@ function draw() {
       fill(255);
     }
     //your task add in a line to generate circle
-    
+    circle(50+i*50,300,50)
   }
   // Task 3: Row of Circles
   
