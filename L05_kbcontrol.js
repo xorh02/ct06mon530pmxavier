@@ -43,6 +43,8 @@ function keyPressed(){
     showtriangle = !showtriangle;
    }
    
+   console.log("key:",key);
+
 }
 function keyReleased(){
   
