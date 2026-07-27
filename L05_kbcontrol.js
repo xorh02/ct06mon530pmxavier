@@ -27,7 +27,7 @@ function draw(){
         }
         circle(mouseX,mouseY,size);
     }
-    if(showsquare){
+    if(showsquare){//do the square part
     }
     if(showtriangle){
     }
