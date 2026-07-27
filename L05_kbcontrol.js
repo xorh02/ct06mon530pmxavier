@@ -7,7 +7,15 @@ function setup(){
 }
 function draw(){
     background(220);
-    if(showcircle)
+    if(showcircle){
+
+    }
+    if(showsquare){
+
+    }
+    if(showtriangle){
+        
+    }
 }
 function keyPressed(){
    
