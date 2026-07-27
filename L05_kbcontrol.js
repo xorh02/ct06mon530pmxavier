@@ -28,10 +28,8 @@ function draw(){
         circle(mouseX,mouseY,size);
     }
     if(showsquare){
-
     }
     if(showtriangle){
-
     }
 }
 function keyPressed(){
