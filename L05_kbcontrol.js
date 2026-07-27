@@ -8,7 +8,7 @@ function setup(){
 function draw(){
     background(220);
     if(showcircle){
-
+        
     }
     if(showsquare){
 
@@ -19,7 +19,7 @@ function draw(){
 }
 function keyPressed(){
    if(key ==='e'){
-    
+    showcircle = !showcircle;
    }
 }
 function keyReleased(){
