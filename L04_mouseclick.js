@@ -14,6 +14,7 @@ function mouseDragged(){
     //challenge 3
     let size = random(5,20);
     fill(random(255),random(255),random(255));
+    //random(-20,20)
     circle(mouseX +random(-20,20),mouseY + random(-20,20),size);
 }
 function mouseReleased(){
