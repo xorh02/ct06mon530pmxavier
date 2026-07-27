@@ -31,7 +31,10 @@ function draw(){
     }
     if(showtriangle){ //do the triangle part
     }
-    circle()
+    if(keyCode === 38){
+        fill(255,0,0);
+    }
+    circle(400,200,100);
 }
 function keyPressed(){
    if(key ==='e'){
