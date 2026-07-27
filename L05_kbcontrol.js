@@ -15,7 +15,7 @@ function draw(){
         }else if(key ==='y'){
 
         }else{
-            
+            circle(mouseX,mouseY,)
         }
     }
     if(showsquare){
