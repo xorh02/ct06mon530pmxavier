@@ -41,7 +41,9 @@ function keyPressed(){
    if(key === 'r'){
      showsquare = !showsquare;
    }
-   if(key==='T')
+   if(key==='T'){
+    showtriangle = !showtriangle;
+   }
 }
 function keyReleased(){
   
