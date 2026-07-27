@@ -22,6 +22,8 @@ function draw(){
             size+=1;
         }else if(key==='-'){
             size -=1;
+        }else{
+            size =size;
         }
         circle(mouseX,mouseY,size);
     }
