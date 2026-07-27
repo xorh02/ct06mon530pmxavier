@@ -8,7 +8,11 @@ function setup(){
 function draw(){
     background(220);
     if(showcircle){
-        if(key==='b')
+        if(key==='b'){
+
+        }else if(key ==='g'){
+
+        }else if(key ==='y')
     }
     if(showsquare){
 
