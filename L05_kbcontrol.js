@@ -9,7 +9,10 @@ function draw(){
     rect(width/2,height/2,rectsize,rectsize);
 }
 function keyPressed(){
-    rectsize = 100;
+    let num = random(5,20);
+    for(let i =0;i<num;i++){
+        
+    }
 }
 function keyReleased(){
     background(220);
