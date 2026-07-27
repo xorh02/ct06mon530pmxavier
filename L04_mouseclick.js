@@ -12,7 +12,10 @@ function draw(){
 }
 function mouseDragged(){
     //challenge 3
-    let size = rand(5,20);
+    let size = random(5,20);
     fill(random(255),random(255),random(255));
     circle(mouseX +random(-20,20),mouseY + random(-20,20),size);
+}
+function mouseReleased(){
+    background(220);
 }
