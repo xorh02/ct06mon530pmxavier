@@ -3,3 +3,16 @@
 
 //type in the two basic function
 
+function setup(){
+  createCanvas(600,400);
+  background(220);
+}
+function draw(){
+
+}
+function mouseDragged(){
+    //challenge 3
+    let size = rand(5,20);
+    fill(random(255),random(255),random(255));
+    circle(mouseX +random(-20,20),mouseY + random(-20,20),size);
+}
