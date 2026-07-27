@@ -15,7 +15,7 @@ function draw(){
         }else if(key ==='y'){
             fill(255,255,0);
         }else{
-            fill()
+            fill(0);
         }
         circle(mouseX,mouseY,100);
     }
