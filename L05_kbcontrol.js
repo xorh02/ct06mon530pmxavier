@@ -18,9 +18,9 @@ function draw(){
         }else{
             fill(0);
         }
-        if(key==='+'){
+        if(key==='+'){ //increase the size
             size+=1;
-        }else if(key==='-'){
+        }else if(key==='-'){ //decrease the size
             size -=1;
         }else{
             size =size;
