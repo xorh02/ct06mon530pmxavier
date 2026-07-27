@@ -9,14 +9,15 @@ function draw(){
     background(220);
     if(showcircle){
         if(key==='b'){
-
+            fill()
         }else if(key ==='g'){
 
         }else if(key ==='y'){
 
         }else{
-            circle(mouseX,mouseY,100);
+            
         }
+        circle(mouseX,mouseY,100);
     }
     if(showsquare){
 
