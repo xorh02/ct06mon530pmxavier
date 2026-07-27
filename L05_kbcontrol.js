@@ -12,7 +12,11 @@ function draw(){
 
         }else if(key ==='g'){
 
-        }else if(key ==='y')
+        }else if(key ==='y'){
+
+        }else{
+            
+        }
     }
     if(showsquare){
 
