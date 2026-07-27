@@ -31,6 +31,7 @@ function draw(){
     }
     if(showtriangle){ //do the triangle part
     }
+    //task2
     if(keyCode === 38){
         fill(255,0,0);
     }else if(keyCode ===40){
