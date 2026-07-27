@@ -2,6 +2,7 @@
 let showcircle = false;
 let showtriangle = false;
 let showsquare = false;
+let size = 100;
 function setup(){
     createCanvas(800,400);
 }
