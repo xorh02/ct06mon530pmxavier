@@ -31,6 +31,7 @@ function draw(){
     }
     if(showtriangle){ //do the triangle part
     }
+    circle()
 }
 function keyPressed(){
    if(key ==='e'){
