@@ -42,6 +42,7 @@ function keyPressed(){
    if(key==='t'){
     showtriangle = !showtriangle;
    }
+   
 }
 function keyReleased(){
   
