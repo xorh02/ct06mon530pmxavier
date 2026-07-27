@@ -8,7 +8,7 @@ function setup(){
 function draw(){
     background(220);
     if(showcircle){
-        
+        if(key==='b')
     }
     if(showsquare){
 
