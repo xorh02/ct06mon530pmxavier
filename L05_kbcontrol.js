@@ -12,7 +12,7 @@ function keyPressed(){
     let num = random(5,20);
     let size = random(5,20);
     for(let i =0;i<num;i++){
-        circle()
+        circle(random(800),random(400),)
     }
 }
 function keyReleased(){
