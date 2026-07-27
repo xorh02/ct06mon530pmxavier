@@ -18,7 +18,9 @@ function draw(){
         }else{
             fill(0);
         }
-        if(key==='+')
+        if(key==='+'){
+            size+=1;
+        }else if(key==='')
         circle(mouseX,mouseY,size);
     }
     if(showsquare){
