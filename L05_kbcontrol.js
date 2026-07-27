@@ -29,7 +29,7 @@ function draw(){
     }
     if(showsquare){//do the square part
     }
-    if(showtriangle){
+    if(showtriangle){ //do the triangle part
     }
 }
 function keyPressed(){
@@ -39,7 +39,7 @@ function keyPressed(){
    if(key === 'r'){
      showsquare = !showsquare;
    }
-   if(key==='T'){
+   if(key==='t'){
     showtriangle = !showtriangle;
    }
 }
