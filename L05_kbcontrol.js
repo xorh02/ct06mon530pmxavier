@@ -20,7 +20,9 @@ function draw(){
         }
         if(key==='+'){
             size+=1;
-        }else if(key==='')
+        }else if(key==='-'){
+            size -=1;
+        }
         circle(mouseX,mouseY,size);
     }
     if(showsquare){
