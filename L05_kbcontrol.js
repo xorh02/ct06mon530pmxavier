@@ -38,6 +38,9 @@ function keyPressed(){
    if(key ==='e'){
     showcircle = !showcircle;
    }
+   if(key === 'r'){
+     show
+   }
 }
 function keyReleased(){
   
