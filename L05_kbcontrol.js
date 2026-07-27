@@ -39,8 +39,9 @@ function keyPressed(){
     showcircle = !showcircle;
    }
    if(key === 'r'){
-     show
+     showsquare = !showsquare;
    }
+   if(key==='T')
 }
 function keyReleased(){
   
