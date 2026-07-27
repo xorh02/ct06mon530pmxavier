@@ -33,6 +33,8 @@ function draw(){
     }
     if(keyCode === 38){
         fill(255,0,0);
+    }else if(keyCode ===40){
+        fill()
     }
     circle(400,200,100);
 }
