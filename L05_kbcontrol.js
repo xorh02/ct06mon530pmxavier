@@ -11,7 +11,7 @@ function draw(){
 function keyPressed(){
     let num = random(5,20);
     for(let i =0;i<num;i++){
-        
+        circle()
     }
 }
 function keyReleased(){
