@@ -9,9 +9,8 @@ function draw(){
     background(220);
     if(showcircle){
         if(key==='b'){
-            fill()
+            fill(0,255,0);
         }else if(key ==='g'){
-
         }else if(key ==='y'){
 
         }else{
