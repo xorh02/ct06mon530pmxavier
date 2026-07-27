@@ -14,11 +14,13 @@ function draw(){
 
     }
     if(showtriangle){
-        
+
     }
 }
 function keyPressed(){
-   
+   if(key ==='e'){
+    
+   }
 }
 function keyReleased(){
   
