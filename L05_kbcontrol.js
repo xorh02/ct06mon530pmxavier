@@ -42,9 +42,9 @@ function keyPressed(){
    if(key==='t'){
     showtriangle = !showtriangle;
    }
-   
-   console.log("key:",key);
 
+   console.log("key:",key);
+   console.log("keycode:",keycode);
 }
 function keyReleased(){
   
