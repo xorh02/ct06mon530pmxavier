@@ -41,7 +41,7 @@ function draw(){
         staticSize -=1;
         staticSize >300? staticSize=300:staticSize<0?staticSize =0:StaticSize
     }
-    if(staticImageX <50 || staticImageX>350 || staticImageY<50||staticImageY>350){
+    if(staticImageX <25 || staticImageX>375 || staticImageY<25||staticImageY>350){
         colorr = color(255,0,0);
     }else{
         colorr = color(173,216,230);
