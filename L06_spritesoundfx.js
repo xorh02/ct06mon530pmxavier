@@ -12,9 +12,9 @@ function draw(){
         y -=2;
     }else if(keyIsDown(DOWN_ARROW)){
         y +=2;
-    }else if(keyIsDown(DOWN_ARROW) ){
+    }else if(keyIsDown(LEFT_ARROW) ){
         x -=2;
-    }else if(keyCode === 39){
+    }else if(keyIsDown(RIGHT_ARROW)){
         x +=2;
     }
 }
