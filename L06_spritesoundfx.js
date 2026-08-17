@@ -24,4 +24,5 @@ function keyPressed(){
     if(keyCode === 38){
         loseEffect.play();
     }
+    //
 }
