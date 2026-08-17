@@ -8,11 +8,11 @@ function setup(){
 
 function draw(){
     rect(x,y,25,25);
-    if(keyCode === 38){
+    if(keyIsDown(UP_ARROW)){
         y -=2;
     }else if(keyIsDown(DOWN_ARROW)){
         y +=2;
-    }else if(keyCode === 37 ){
+    }else if(keyIsDown(DOWN_ARROW) ){
         x -=2;
     }else if(keyCode === 39){
         x +=2;
