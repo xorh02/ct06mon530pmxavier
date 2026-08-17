@@ -32,10 +32,10 @@ function draw(){
         staticImageY += staticSpeed;
     }
     if(key === '+'){
-        staticSize +=5;
+        staticSize +=1;
     }
     if(key === '-'){
-        staticSize -=5;
+        staticSize -=1;
     }
 }
 function keyPressed(){
