@@ -7,5 +7,5 @@ function setup(){
 }
 
 function draw(){
-    square(x,y,25,25);
+    rect(x,y,25,25);
 }
