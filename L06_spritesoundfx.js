@@ -21,7 +21,7 @@ function draw(){
     if(keyIsDown(LEFT_ARROW)){
         staticImageX -= staticSpeed;
     }
-    if(keyCode === 39){
+    if(keyIsDown(RIGHT_ARROW)){
         staticImageX += staticSpeed;
     }
 }
