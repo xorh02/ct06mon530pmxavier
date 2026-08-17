@@ -9,6 +9,8 @@ function setup(){
 function draw(){
     rect(x,y,25,25);
     if(keyCode === 38){
-        x 
+        y -=2;
+    }else if(keyCode ===40){
+        
     }
 }
