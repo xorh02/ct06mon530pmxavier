@@ -18,7 +18,7 @@ function setup(){
 function draw(){
    background("lightblue");
    image(staticImage,staticImageX,staticImageY,50,50);
-    if(keyCode === 37){
+    if(keyIsDown(LEFT_ARROW)){
         staticImageX -= staticSpeed;
     }
     if(keyCode === 39){
