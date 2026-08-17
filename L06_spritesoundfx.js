@@ -27,7 +27,5 @@ function keyPressed(){
     if(keyCode === 40){
         wineffect.play();
     }
-    if(keyCode === 37){
-        bgMusic.stop();
-    }
+  
 } 
