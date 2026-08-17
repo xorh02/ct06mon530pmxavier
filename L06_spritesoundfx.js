@@ -24,5 +24,5 @@ function keyPressed(){
     if(keyCode === 38){
         loseEffect.play();
     }
-    //
+    //play the win sound when press down arrow key
 }
