@@ -28,6 +28,6 @@ function keyPressed(){
         wineffect.play();
     }
     if(keyCode === 37){
-        
+        bgMusic.stop();
     }
 } 
