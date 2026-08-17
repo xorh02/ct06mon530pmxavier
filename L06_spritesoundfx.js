@@ -24,6 +24,12 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         staticImageX += staticSpeed;
     }
+    if(keyIsDown(LEFT_ARROW)){
+        staticImageX -= staticSpeed;
+    }
+    if(keyIsDown(RIGHT_ARROW)){
+        staticImageX += staticSpeed;
+    }
 }
 function keyPressed(){
     if(keyCode === 32){
