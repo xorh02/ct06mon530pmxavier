@@ -27,7 +27,7 @@ function keyPressed(){
         loseEffect.play();
     }
     if(keyCode === 37){
-        s
+        staticImageX -= staticSpeed;
     }
     //CHALLENGE play the win sound 
     // when press down arrow key
