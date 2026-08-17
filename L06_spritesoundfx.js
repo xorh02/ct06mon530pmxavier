@@ -3,7 +3,7 @@ let soundEffect ,bgMusic, staticImage,loseEffect,wineffect;
 //create 4 variables
 let staticImageX = 0;
 let staticImageY = 0;
-let stat
+let staticSpeed = 5;
 function preload(){
     soundEffect = loadSound('assets/bossaNova.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
