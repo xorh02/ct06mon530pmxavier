@@ -33,11 +33,11 @@ function draw(){
     }
     if(key === '='){
         staticSize +=1;
-        staticSize >300? staticSize=300:staticSize<0?staticSize =0:Stati
+        staticSize >300? staticSize=300:staticSize<0?staticSize =0:StaticSize
     }
     if(key === '-'){
         staticSize -=1;
-        staticSize >100? staticSize=100:staticSize
+        staticSize >300? staticSize=300:staticSize<0?staticSize =0:StaticSize
     }
 }
 function keyPressed(){
