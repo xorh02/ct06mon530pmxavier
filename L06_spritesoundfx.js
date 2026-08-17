@@ -5,6 +5,7 @@ let staticImageX = 0;
 let staticImageY = 0;
 let staticSpeed = 5;
 let staticSize =50;
+let colorr = color()
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
