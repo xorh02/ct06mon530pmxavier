@@ -24,11 +24,11 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         staticImageX += staticSpeed;
     }
-    if(keyIsDown(LEFT_ARROW)){
-        staticImageX -= staticSpeed;
+    if(keyIsDown(UP_ARROW)){
+        staticImageY -= staticSpeed;
     }
-    if(keyIsDown(RIGHT_ARROW)){
-        staticImageX += staticSpeed;
+    if(keyIsDown(DOWN_ARROW)){
+        staticImageY += staticSpeed;
     }
 }
 function keyPressed(){
