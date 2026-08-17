@@ -2,8 +2,8 @@
 let soundEffect ,bgMusic, staticImage;
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
-    bgMusic = loadSound('assets/bossaNova.mps')
-
+    bgMusic = loadSound('assets/bossaNova.mps');
+    staticImage = 
 }
 
 function setup(){
