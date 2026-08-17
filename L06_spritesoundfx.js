@@ -17,6 +17,6 @@ function draw(){
     }else if(keyIsDown(RIGHT_ARROW)){
         x +=2;
     }
-    constrain(x,0,width);
+    constrain(x,300,300);
     constrain(y,0,height);
 }
