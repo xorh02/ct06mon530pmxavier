@@ -41,7 +41,9 @@ function draw(){
         staticSize -=1;
         staticSize >300? staticSize=300:staticSize<0?staticSize =0:StaticSize
     }
-    if(staticImageX <0 || staticImageX>400 || staticImageY<0||staticImageY){}
+    if(staticImageX <0 || staticImageX>400 || staticImageY<0||staticImageY>400){
+        
+    }
     
 }
 function keyPressed(){
