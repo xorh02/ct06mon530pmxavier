@@ -33,7 +33,7 @@ function draw(){
     }
     if(key === '+'){
         staticSize +=1;
-        staticSize >100? staticSize=100:staticSize
+        staticSize >300? staticSize=100:staticSize
     }
     if(key === '-'){
         staticSize -=1;
