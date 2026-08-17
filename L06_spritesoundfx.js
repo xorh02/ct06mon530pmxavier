@@ -35,7 +35,7 @@ function draw(){
         staticSize +=5;
     }
     if(key === '-'){
-        staticSize 
+        staticSize -=5;
     }
 }
 function keyPressed(){
