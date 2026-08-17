@@ -5,6 +5,7 @@ function preload(){
     bgMusic = loadSound('assets/bossaNova.mp3');
     loseEffect = loadSound('assets/DunDunDunnn.mp3');
     staticImage = loadImage('assets/pico-a.png');
+    wineffect = loadSound('assets/Win.mp3');
 }
 
 function setup(){
