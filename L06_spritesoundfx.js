@@ -16,7 +16,7 @@ function preload(){
 function setup(){
     createCanvas(400,400);
     bgMusic.loop();
-    color(173,216,230);
+    colorr = color(173,216,230);
 }
 function draw(){
    background(colorr);
