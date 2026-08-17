@@ -27,4 +27,7 @@ function keyPressed(){
     }
     //CHALLENGE play the win sound 
     // when press down arrow key
+    if(keyCode === 40){
+        wineffect.play();
+    }
 } 
