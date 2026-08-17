@@ -43,6 +43,8 @@ function draw(){
     }
     if(staticImageX <0 || staticImageX>400 || staticImageY<0||staticImageY>400){
         colorr = color(255,0,0);
+    }else{
+        colorr = 
     }
     
 }
