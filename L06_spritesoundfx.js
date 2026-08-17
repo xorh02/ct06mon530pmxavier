@@ -31,18 +31,18 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         staticImageY += staticSpeed;
     }
-    if(key === '='){
+    if(staticImageX <25 || staticImageX>375 || staticImageY<25||staticImageY>375){
+        colorr = color(255,0,0);
+    }else{
+        colorr = color(173,216,230);
+    }
+     if(key === '='){
         staticSize +=1;
         staticSize >300? staticSize=300:staticSize<0?staticSize =0:StaticSize
     }
     if(key === '-'){
         staticSize -=1;
         staticSize >300? staticSize=300:staticSize<0?staticSize =0:StaticSize
-    }
-    if(staticImageX <25 || staticImageX>375 || staticImageY<25||staticImageY>375){
-        colorr = color(255,0,0);
-    }else{
-        colorr = color(173,216,230);
     }
     
 }
