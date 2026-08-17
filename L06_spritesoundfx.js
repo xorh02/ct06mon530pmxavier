@@ -3,7 +3,7 @@ let soundEffect ,bgMusic, staticImage;
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mps');
-    staticImage = loadImage('assets/p')
+    staticImage = loadImage('assets/pico-a.png');
 }
 
 function setup(){
