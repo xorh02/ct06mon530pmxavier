@@ -10,7 +10,7 @@ function draw(){
     rect(x,y,25,25);
     if(keyCode === 38){
         y -=2;
-    }else if(keyCode ===40){
+    }else if(keyIsDown(DOWN_A)){
         y +=2;
     }else if(keyCode === 37 ){
         x -=2;
