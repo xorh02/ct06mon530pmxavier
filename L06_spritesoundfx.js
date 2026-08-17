@@ -18,5 +18,5 @@ function draw(){
         x +=2;
     }
     constrain(x,0,width);
-    constrain(y,0,Height);
+    constrain(y,0,height);
 }
