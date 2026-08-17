@@ -18,6 +18,12 @@ function setup(){
 function draw(){
    background("lightblue");
    image(staticImage,staticImageX,staticImageY,50,50);
+    if(keyCode === 37){
+        staticImageX -= staticSpeed;
+    }
+    if(keyCode === 39){
+        staticImageX += staticSpeed;
+    }
 }
 function keyPressed(){
     if(keyCode === 32){
@@ -26,12 +32,7 @@ function keyPressed(){
     if(keyCode === 38){
         loseEffect.play();
     }
-    if(keyCode === 37){
-        staticImageX -= staticSpeed;
-    }
-    if(keyCode === 39){
-        staticImageX += staticSpeed;
-    }
+   
     //CHALLENGE play the win sound 
     // when press down arrow key
     if(keyCode === 40){
