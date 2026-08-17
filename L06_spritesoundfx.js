@@ -38,7 +38,7 @@ function draw(){
     }
     if(key === '-'){
         staticSize -=1;
-           if(staticSize>100){staticSize =100}
+        if(staticSize>100){staticSize =100}
         if(staticSize<0){staticSize =0}
     }
 }
