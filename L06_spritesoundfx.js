@@ -29,6 +29,9 @@ function keyPressed(){
     if(keyCode === 37){
         staticImageX -= staticSpeed;
     }
+    if(keyCode === 39){
+        staticImageX += staticSpeed;
+    }
     //CHALLENGE play the win sound 
     // when press down arrow key
     if(keyCode === 40){
