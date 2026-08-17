@@ -39,7 +39,7 @@ function draw(){
         staticSize -=1;
         staticSize >300? staticSize=300:staticSize<0?staticSize =0:StaticSize
     }
-    if(staticImageX <0){background("red")};
+    
 }
 function keyPressed(){
     if(keyCode === 32){
