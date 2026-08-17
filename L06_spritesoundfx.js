@@ -31,7 +31,7 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         staticImageY += staticSpeed;
     }
-    if(key === '+'){
+    if(key === '='){
         staticSize +=1;
         staticSize >300? staticSize=100:staticSize
     }
