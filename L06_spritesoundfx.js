@@ -18,7 +18,7 @@ function setup(){
 }
 function draw(){
    background("lightblue");
-   image(staticImage,staticImageX,staticImageY,staticSize,50);
+   image(staticImage,staticImageX,staticImageY,staticSize,staticSize);
     if(keyIsDown(LEFT_ARROW)){
         staticImageX -= staticSpeed;
     }
@@ -30,6 +30,9 @@ function draw(){
     }
     if(keyIsDown(DOWN_ARROW)){
         staticImageY += staticSpeed;
+    }
+    if(key === '+'){
+        
     }
 }
 function keyPressed(){
