@@ -5,7 +5,7 @@ let staticImageX = 0;
 let staticImageY = 0;
 let staticSpeed = 5;
 function preload(){
-    soundEffect = loadSound('assets/bossaNova.mp3');
+    soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
     loseEffect = loadSound('assets/DunDunDunnn.mp3');
     staticImage = loadImage('assets/pico-a.png');
