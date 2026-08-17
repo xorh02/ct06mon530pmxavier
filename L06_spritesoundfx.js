@@ -1,8 +1,9 @@
 // write your codes here
-let soundEffect ,bgMusic, staticImage;
+let soundEffect ,bgMusic, staticImage,loseEffect;
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
-    bgMusic = loadSound('assets/star_wars_theme_8_bit.mp3');
+    bgMusic = loadSound('assets/bossaNova.mp3');
+    loseEffect = loadSound('assets/DunDunDunnn.mp3');
     staticImage = loadImage('assets/pico-a.png');
 }
 
@@ -19,5 +20,8 @@ function draw(){
 function keyPressed(){
     if(keyCode === 32){
         soundEffect.play();     
+    }
+    if(keyCode === 38){
+        soun
     }
 }
