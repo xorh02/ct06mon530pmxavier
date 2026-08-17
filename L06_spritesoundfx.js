@@ -8,7 +8,7 @@ function preload(){
 
 function setup(){
     createCanvas(400,400);
-    bgMusic.loop();
+    bgMusic.play();
 }
 
 function draw(){
@@ -18,6 +18,6 @@ function draw(){
 
 function keyPressed(){
     if(keyCode === 32){
-        soundEffect.play();
+        soundEffect.play();     
     }
 }
