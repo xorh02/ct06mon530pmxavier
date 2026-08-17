@@ -1,7 +1,7 @@
 // write your codes here
 let soundEffect ,bgMusic, staticImage,loseEffect,wineffect;
 //create 4 variables
-
+let staticImageX,
 function preload(){
     soundEffect = loadSound('assets/bossaNova.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
