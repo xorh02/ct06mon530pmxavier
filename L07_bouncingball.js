@@ -40,7 +40,7 @@ let bally = 200;
 let ballsize = 30;
 let ballspeedx = 3;
 let ballspeedy = 3;
-let colorchange = false; 
+let colorchange = false; let trail = false;
 function setup(){
     createCanvas(600,400);
       background(220);
@@ -67,8 +67,8 @@ function keyPressed(){
     //task 4 speed control
     if(keyCode ===UP_ARROW){ ballspeedx *= 1.2; ballspeedy *=1.2;} 
     else if(keyCode ===DOWN_ARROW){ ballspeedx *= 0.8; ballspeedy *=0.8;}
-    if(key === 'c' || key === 'C'){ color}
-    if(key === 't' || key === 'T'){}
+    if(key === 'c' || key === 'C'){ colorchange = !colorchange;}
+    if(key === 't' || key === 'T'){ trail = !trail;}
     if(key === '+'){ ballsize +=5;}
     if(key === '-'){ ballsize -=5;}
 }
