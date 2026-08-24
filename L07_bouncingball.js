@@ -65,8 +65,8 @@ function draw(){
 }
 function keyPressed(){
     //task 4 speed control
-    if(keyCode ===38){ ballspeedx *= 1.2; ballspeedy *=1.2;} 
-}   if(keyCode ===40){ ballspeedx *= 0.8; ballspeedy *=0.8;}
+    if(keyCode ===UP_ARROW){ ballspeedx *= 1.2; ballspeedy *=1.2;} 
+}   if(keyCode ===DOWN_ARROW){ ballspeedx *= 0.8; ballspeedy *=0.8;}
 
 
 
