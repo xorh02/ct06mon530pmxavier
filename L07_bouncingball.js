@@ -49,7 +49,8 @@ function setup(){
 function draw(){
     if(!trail){background(220);}
     if(colorchange){
-        r
+        r = random(255);
+        g = random(255)
     }
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
