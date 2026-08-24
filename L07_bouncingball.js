@@ -39,8 +39,8 @@
 let ballx = 300;
 let bally = 200;
 let ballsize = 30;
-let speedx = 3;
-let speedy = 3;
+let ballspeedx = 3;
+let ballspeedy = 3;
 function setup(){
     createCanvas(600,400);
 }
