@@ -40,6 +40,7 @@ let bally = 200;
 let ballsize = 30;
 let ballspeedx = 3;
 let ballspeedy = 3;
+let colorchange = false; 
 function setup(){
     createCanvas(600,400);
       background(220);
