@@ -58,8 +58,7 @@ function draw(){
     if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
         ballspeedx = -ballspeedx;
         if(colorchange){
-        r = random(255);
-        g = random(255);   b = random(255);
+        r = random(255);g = random(255);   b = random(255);
     }
     fill(r,g,b);
     }
@@ -67,9 +66,7 @@ function draw(){
     if(bally + (ballsize/2) > height || bally < ballsize/2){
         ballspeedy = -ballspeedy;
        if(colorchange){
-        r = random(255);
-        g = random(255);
-        b = random(255);
+        r = random(255);g = random(255);b = random(255);
     }
     fill(r,g,b);
     }
