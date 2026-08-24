@@ -60,6 +60,7 @@ function draw(){
     //second iff for the top and the bottom
     if(bally + (ballsize/2) > height || bally < ballsize/2){
         ballspeedy = -ballspeedy;
+        fill(random(255),random(255),random(255));
     }
     
 
