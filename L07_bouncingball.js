@@ -27,8 +27,8 @@ function draw(){
     image(pico,x,y,picowidth,100);
 }
 function keyPressed(){
-    if(keyCode){
+    if(key===  " "){
         picowidth /=2;
-        popSound.play();
+        popSound.loop();
     }
 }
