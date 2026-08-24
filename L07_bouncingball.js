@@ -13,9 +13,11 @@ function setup(){
 function draw(){
     background(220);
     if(keyIsDown(LEFT_ARROW)){
-        X
+        x -=3;
     }
-    if(keyIsDown(RIGHT_ARROW)){}
+    if(keyIsDown(RIGHT_ARROW)){
+        
+    }
     if(keyIsDown(UP_ARROW)){}
     if(keyIsDown(DOWN_ARROW)){}
 }
