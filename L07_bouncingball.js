@@ -46,7 +46,7 @@ function setup(){
       background(220);
 }
 function draw(){
-  
+      noStroke();
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
@@ -62,7 +62,7 @@ function draw(){
         ballspeedy = -ballspeedy;
         fill(random(255),random(255),random(255));
     }
-    
+
 
 }
 
