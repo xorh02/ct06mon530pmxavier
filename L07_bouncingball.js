@@ -49,12 +49,7 @@ function setup(){
 function draw(){
     noStroke();
     if(!trail){background(220);}
-    if(colorchange){
-        r = random(255);
-        g = random(255);
-        b = random(255);
-    }
-    fill(r,g,b);
+    
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
@@ -62,13 +57,23 @@ function draw(){
     //first if for the left and right
     if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
         ballspeedx = -ballspeedx;
-        fill(random(255),random(255),random(255));
+        if(colorchange){
+        r = random(255);
+        g = random(255);
+        b = random(255);
+    }
+    fill(r,g,b);
     }
 
     //second iff for the top and the bottom
     if(bally + (ballsize/2) > height || bally < ballsize/2){
         ballspeedy = -ballspeedy;
-        fill(random(255),random(255),random(255));
+       if(colorchange){
+        r = random(255);
+        g = random(255);
+        b = random(255);
+    }
+    fill(r,g,b);c
     }
 }
 function keyPressed(){
