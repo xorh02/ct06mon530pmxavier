@@ -49,7 +49,7 @@ function draw(){
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
-    //
+    //condition for edge detection
 }
 
 
