@@ -49,6 +49,7 @@ function draw(){
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
+    //
 }
 
 
