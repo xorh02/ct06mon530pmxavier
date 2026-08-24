@@ -30,6 +30,9 @@ function keyPressed(){
     if(key===  " "){
         picowidth /=2;
         popSound.play ();
-        if(picowidth <=0)
+        if(picowidth <=0){
+            picowidth = 1;
+            picowidth
+        }
     }
 }
