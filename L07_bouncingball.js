@@ -85,7 +85,7 @@ function setup(){
     background(220);
 }
 function draw(){
-    
+    for(let i =0; i<3;)
         circle(x,y,50);
 }
 
