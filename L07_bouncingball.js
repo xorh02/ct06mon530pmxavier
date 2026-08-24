@@ -50,8 +50,10 @@ function draw(){
     if(!trail){background(220);}
     if(colorchange){
         r = random(255);
-        g = random(255)
+        g = random(255);
+        b = random(255);
     }
+    fill(r,g,b);
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
