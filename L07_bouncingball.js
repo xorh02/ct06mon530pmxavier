@@ -79,7 +79,9 @@
 //     if(key === '-'){ ballsize -=5;}
 // }
 
-function setup(){}
+function setup(){
+    createCanvas(600,600);
+}
 
 
 
