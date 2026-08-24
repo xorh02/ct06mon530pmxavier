@@ -43,9 +43,10 @@ let ballspeedx = 3;
 let ballspeedy = 3;
 function setup(){
     createCanvas(600,400);
+      background(220);
 }
 function draw(){
-    background(220);
+  
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
