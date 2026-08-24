@@ -49,7 +49,6 @@ function setup(){
 function draw(){
     noStroke();
     if(!trail){background(220);}
-    
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
@@ -66,7 +65,7 @@ function draw(){
     if(bally + (ballsize/2) > height || bally < ballsize/2){
         ballspeedy = -ballspeedy;
        if(colorchange){
-        r = random(255);g = random(255);b = random(255);
+        r = random(255); g = random(255);b = random(255);
     }
     fill(r,g,b);
     }
