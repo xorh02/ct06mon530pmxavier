@@ -47,6 +47,9 @@ function setup(){
 }
 function draw(){
     if(!trail){background(220);}
+    if(colorchange){
+        r
+    }
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
