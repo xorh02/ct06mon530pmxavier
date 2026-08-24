@@ -11,5 +11,6 @@ function setup(){
     createCanvas(600,400);
 }
 function draw(){
-    background
+    background(220);
+    if(keyIsDown(LEFT_ARROW))
 }
