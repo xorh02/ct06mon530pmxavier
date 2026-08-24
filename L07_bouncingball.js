@@ -68,8 +68,8 @@ function keyPressed(){
     else if(keyCode ===DOWN_ARROW){ ballspeedx *= 0.8; ballspeedy *=0.8;}
     if(key === 'c' || key === 'C'){}
     if(key === 't' || key === 'T'){}
-    if(key === '+'){}
-    if(key === '-'){}
+    if(key === '+'){ ballsize +=5;}
+    if(key === '-'){ ballsize -=5;}
 }
 
 
