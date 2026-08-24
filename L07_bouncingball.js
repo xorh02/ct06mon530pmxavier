@@ -73,7 +73,7 @@ function draw(){
         g = random(255);
         b = random(255);
     }
-    fill(r,g,b);c
+    fill(r,g,b);
     }
 }
 function keyPressed(){
