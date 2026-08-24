@@ -36,7 +36,10 @@
 
 //task1 moving balls
 
-
+let ballx = 300;
+let bally = 200;
+let size = 30;
+let
 
 
 
