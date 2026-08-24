@@ -54,6 +54,7 @@ function draw(){
     //first if for the left and right
     if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
         ballspeedx = -ballspeedx;
+        fill(random(255),random(255),random(255));
     }
 
     //second iff for the top and the bottom
