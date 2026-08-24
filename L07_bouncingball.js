@@ -56,7 +56,7 @@ function draw(){
     }
 
     //second iff for the top and the bottom
-    if(bally - (ballsize/2) > heig){
+    if(bally - (ballsize/2) > height || bally < ballsize/2){
         ballspeedy = -ballspeedy;
     }
     
