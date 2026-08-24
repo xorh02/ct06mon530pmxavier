@@ -38,7 +38,7 @@
 
 let ballx = 300;
 let bally = 200;
-let size = 30;
+let ballsize = 30;
 let speedx = 3;
 let speedy = 3;
 function setup(){
@@ -46,7 +46,7 @@ function setup(){
 }
 function draw(){
     background(220);
-    circle(ballx,bally,size);
+    circle(ballx,bally,ballsize);
     ballx += speedx;
     bally += speedy;
 }
