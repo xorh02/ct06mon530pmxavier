@@ -24,5 +24,5 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=3;
     }
-    i
+    image(pico)
 }
