@@ -50,6 +50,8 @@ function draw(){
     ballx += ballspeedx;
     bally += ballspeedy;
     //condition for edge detection
+    
+
 }
 
 
