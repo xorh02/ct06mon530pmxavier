@@ -63,9 +63,9 @@ function draw(){
         fill(random(255),random(255),random(255));
     }
 }
-
 function keyPressed(){
-    //task 4 speed control 
+    //task 4 speed control
+    if(keyCode ===38){ ballspeedx} 
 }
 
 
