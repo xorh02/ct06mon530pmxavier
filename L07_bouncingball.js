@@ -46,7 +46,7 @@ function setup(){
 }
 function draw(){
     background(220);
-    CSSNumericValue(ballx,bally)
+    CSSNumericValue(ballx,bally,size)
 }
 
 
