@@ -78,14 +78,14 @@
 //     if(key === '+'){ ballsize +=5;}
 //     if(key === '-'){ ballsize -=5;}
 // }
-
+let 
 function setup(){
     createCanvas(600,600);
     background(220);
 }
 function draw(){
 
-    
+    circle(x,y,50)
 }
 
 
