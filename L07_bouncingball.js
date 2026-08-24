@@ -49,7 +49,16 @@ function draw(){
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
     bally += ballspeedy;
-    //condition for edge detection
+    //task 2 condition for edge detection
+    //first if for the left and right
+    if(ballx + (ballsize/2) > width || ballx - (ballsize/2)<width){
+        ballspeedx = -ballspeedx;
+    }
+
+    //second iff for the top and the bottom
+    if(bally - wis){
+        ballspeedy = -ballspeedy;
+    }
     
 
 }
