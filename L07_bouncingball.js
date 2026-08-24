@@ -51,7 +51,7 @@ function draw(){
     bally += ballspeedy;
     //task 2 condition for edge detection
     //first if for the left and right
-    if(ballx + (ballsize/2) > width || ballx - (ballsize/2)<width){
+    if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<width){
         ballspeedx = -ballspeedx;
     }
 
