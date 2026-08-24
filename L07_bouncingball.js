@@ -12,8 +12,10 @@ function setup(){
 }
 function draw(){
     background(220);
-    if(keyIsDown(LEFT_ARROW)){}
-    if(keyIsDown(LEFT_ARROW)){}
+    if(keyIsDown(LEFT_ARROW)){
+        X
+    }
+    if(keyIsDown(RIGHT_ARROW)){}
     if(keyIsDown(UP_ARROW)){}
     if(keyIsDown(DOWN_ARROW)){}
 }
