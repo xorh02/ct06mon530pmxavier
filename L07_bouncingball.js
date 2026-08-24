@@ -46,7 +46,8 @@ function setup(){
 }
 function draw(){
     background(220);
-    CSSNumericValue(ballx,bally,size)
+    circle(ballx,bally,size);
+    
 }
 
 
