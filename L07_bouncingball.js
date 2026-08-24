@@ -47,6 +47,7 @@ function setup(){
       background(220);
 }
 function draw(){
+    noStroke();
     if(!trail){background(220);}
     if(colorchange){
         r = random(255);
