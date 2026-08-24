@@ -3,4 +3,7 @@ let pico , popSound;
 let x = 200;
 let y = 200;
 
-function preload()
+function preload(){
+    pico = loadImage('assets/pico-a.png');
+    
+}
