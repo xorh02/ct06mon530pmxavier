@@ -62,9 +62,9 @@ function draw(){
         ballspeedy = -ballspeedy;
         fill(random(255),random(255),random(255));
     }
-
-
 }
+
+function keyPressed()
 
 
 
