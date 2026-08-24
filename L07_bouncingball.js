@@ -42,7 +42,8 @@ let ballspeedx = 3;
 let ballspeedy = 3;
 let colorchange = false; let trail = false; let r=0; let g=0; let b=255;
 function setup(){
-    createCanvas(600,400);background(220);
+    createCanvas(600,400);
+    background(220);
 }
 function draw(){
     noStroke();
