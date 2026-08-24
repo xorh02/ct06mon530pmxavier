@@ -32,7 +32,7 @@ function keyPressed(){
         popSound.play ();
         if(picowidth <=0){
             picowidth = 1;
-            picowidth
+            picowidth *=2;
         }
     }
 }
