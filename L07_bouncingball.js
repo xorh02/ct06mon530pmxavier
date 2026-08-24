@@ -5,7 +5,7 @@ let y = 200;
 let picowidth = 100;
 function preload(){
     pico = loadImage('assets/pico-a.png');
-    popSound = loadAudio('assets/pop.mp3');
+    popSound = loadSound('assets/pop.mp3');
 }
 function setup(){
     createCanvas(600,400);
