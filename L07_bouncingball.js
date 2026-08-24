@@ -64,7 +64,9 @@ function draw(){
     }
 }
 
-function keyPressed()
+function keyPressed(){
+    //task 4 speed control 
+}
 
 
 
