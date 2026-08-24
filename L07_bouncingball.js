@@ -59,12 +59,10 @@ function draw(){
         ballspeedx = -ballspeedx;
         if(colorchange){
         r = random(255);
-        g = random(255);
-        b = random(255);
+        g = random(255);   b = random(255);
     }
     fill(r,g,b);
     }
-
     //second iff for the top and the bottom
     if(bally + (ballsize/2) > height || bally < ballsize/2){
         ballspeedy = -ballspeedy;
