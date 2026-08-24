@@ -47,7 +47,8 @@ function setup(){
 function draw(){
     background(220);
     circle(ballx,bally,size);
-    ballx += 
+    ballx += speedx;
+    bally += speedy;
 }
 
 
