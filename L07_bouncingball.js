@@ -67,6 +67,9 @@ function keyPressed(){
     if(keyCode ===UP_ARROW){ ballspeedx *= 1.2; ballspeedy *=1.2;} 
     else if(keyCode ===DOWN_ARROW){ ballspeedx *= 0.8; ballspeedy *=0.8;}
     if(key === 'c' || key === 'C'){}
+    if(key === 'c' || key === 'C'){}
+    if(key === 'c' || key === 'C'){}
+    if(key === '-'){}
 }
 
 
