@@ -33,5 +33,5 @@ css -> cascading style sheet
 heading in html -> h1 to h7
 must have in html -> body, title ,html ,head
 declare a variable -> let variable_name = value;
-must have functions 
+must have functions in p5js -> setup() and draw()
 */
