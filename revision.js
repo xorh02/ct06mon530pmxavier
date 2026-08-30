@@ -43,5 +43,5 @@ coordinate system->if move right x inc y same,
 coordinate system->if move down x same y inc,
 coordinate system-> we dont use negative value 
 function that only run once -> function setup()
-functin that run multiple times-> function draw()
+function that run multiple times-> function draw()
 */
