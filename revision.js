@@ -17,7 +17,8 @@
 
 //draw circle with forloop
 function setup(){
-    createCan
+    createCanvas(600,400);
+    
 }
 for( let i =0; i<10; i++){
 
