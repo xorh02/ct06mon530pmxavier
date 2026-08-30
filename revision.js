@@ -27,7 +27,7 @@ function draw(){
     }   
 
 }
-for(let i=1;i>5;i++){}
+for(let i=1;i<5;i++){}
 
 /*revision notes
 css -> cascading style sheet
