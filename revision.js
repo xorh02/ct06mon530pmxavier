@@ -16,7 +16,9 @@
 // }
 
 //draw circle with forloop
-
+function setup(){
+    createCan
+}
 for( let i =0; i<10; i++){
 
 }
