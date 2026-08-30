@@ -28,7 +28,6 @@ function draw(){
 
 }
 
-
 /*revision notes
 css -> cascading style sheet
 heading in html -> h1 to h7
@@ -45,6 +44,4 @@ coordinate system->if move down x same y inc,
 coordinate system-> we dont use negative value 
 function that only run once -> function setup()
 functin that run multiple times-> function draw()
-
-
 */
