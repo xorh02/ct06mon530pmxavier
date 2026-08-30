@@ -18,8 +18,9 @@
 //draw circle with forloop
 function setup(){
     createCanvas(600,400);
-    
+    background(220);
 }
+function draw(){
 for( let i =0; i<10; i++){
 
 }
