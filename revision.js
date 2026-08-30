@@ -6,6 +6,7 @@ function setup(){
     //triangle 6 parameters
     triangle(260,240,300,160,340,240);
     //circle 3 parameter x,y,d
-    circle()
+    circle(150,200,80);
+    //square
 
 }
