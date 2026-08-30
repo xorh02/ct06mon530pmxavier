@@ -43,6 +43,7 @@ coordinate system-> top left is 0,0
 coordinate system->if move right x inc y same,
 coordinate system->if move down x same y inc,
 coordinate system-> we dont use negative value 
+fu
 
 
 */
