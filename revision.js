@@ -27,7 +27,7 @@ function draw(){
     }   
 
 }
-for(let i=1;i<5;i++){}
+
 
 /*revision notes
 css -> cascading style sheet
@@ -35,7 +35,7 @@ heading in html -> h1 to h7
 must have in html -> body, title ,html ,head
 declare a variable -> let variable_name = value;
 must have functions in p5js -> setup() and draw()
-
+in for loop
 
 
 */
