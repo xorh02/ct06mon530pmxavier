@@ -39,7 +39,7 @@ in for loop be very careful of the initial variable declaration
 for loop syntax -> for(let i =0; i<5;i++)
 for loop syntax -> for(declaration; condition; increment)
 to create new canvas -> createCanvas(width,height)
-
+coordinate system
 
 
 */
