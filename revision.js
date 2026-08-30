@@ -32,5 +32,5 @@ function draw(){
 css -> cascading style sheet
 heading in html -> h1 to h7
 must have in html -> body, title ,html ,head
-
+declare a variable
 */
