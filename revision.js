@@ -29,6 +29,6 @@ function draw(){
 }
 
 /*revision notes
-css -
+css -> cascading style sheet
 
 */
