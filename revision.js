@@ -4,6 +4,6 @@ function setup(){
     fill(0);
     stroke(255,0,0);//change outline color
     //triangle 6 parameters
-    triangle(260,240,)
+    triangle(260,240,300,160,340,240)
 
 }
