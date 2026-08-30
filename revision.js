@@ -36,7 +36,9 @@ must have in html -> body, title ,html ,head
 declare a variable -> let variable_name = value;
 must have functions in p5js -> setup() and draw()
 in for loop be very careful of the initial variable declaration
-for loop syntax -> for(let i =0; i<)
+for loop syntax -> for(let i =0; i<5;i++)
+for loop syntax -> for(declaration; condition; increment)
+to 
 
 
 */
