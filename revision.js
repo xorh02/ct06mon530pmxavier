@@ -8,5 +8,5 @@ function setup(){
     //circle 3 parameter x,y,d
     circle(150,200,80);
     //square
-
+    rect(410,160,)
 }
