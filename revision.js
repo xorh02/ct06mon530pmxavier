@@ -22,7 +22,8 @@ function setup(){
 }
 function draw(){
     for( let i =0; i<10; i++){
-        fill(0)
+        fill(0 +i*25);
+        circle(,20)
     }   
 
 }
