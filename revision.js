@@ -21,7 +21,9 @@ function setup(){
     background(220);
 }
 function draw(){
-for( let i =0; i<10; i++){
+    for( let i =0; i<10; i++){
+        fill(2)
+    }   
 
 }
 
