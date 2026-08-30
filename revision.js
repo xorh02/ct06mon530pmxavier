@@ -16,4 +16,7 @@ function draw(){
 }
 
 //draw circle with forloop
+for( let i =0; i<10; i++){
+    
+}
 
