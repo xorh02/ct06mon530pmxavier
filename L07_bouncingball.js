@@ -48,24 +48,6 @@ function setup(){
 }
 function draw(){
     noStroke();
-  
-    circle(ballx,bally,ballsize);
-    ballx += ballspeedx;
-    bally += ballspeedy;
-    //task 2 condition for edge detection
-    //first if for the left and right
-    if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
-        ballspeedx = -ballspeedx;
-       
-    }
-    //second iff for the top and the bottom
-    if(bally + (ballsize/2) > height || bally < ballsize/2){
-        ballspeedy = -ballspeedy;
-       
-    }
-}
-function draw(){
-    noStroke();
     if(!trail){background(220);}
     circle(ballx,bally,ballsize);
     ballx += ballspeedx;
