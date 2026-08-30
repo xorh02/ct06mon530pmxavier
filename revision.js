@@ -40,7 +40,8 @@ for loop syntax -> for(let i =0; i<5;i++)
 for loop syntax -> for(declaration; condition; increment)
 to create new canvas -> createCanvas(width,height)
 coordinate system-> top left is 0,0 
-coordinate system->if move right x inc y same,move down 
+coordinate system->if move right x inc y same,
+coordinate system->if move down 
 
 
 */
