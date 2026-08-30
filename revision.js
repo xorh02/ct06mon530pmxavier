@@ -41,7 +41,8 @@ for loop syntax -> for(declaration; condition; increment)
 to create new canvas -> createCanvas(width,height)
 coordinate system-> top left is 0,0 
 coordinate system->if move right x inc y same,
-coordinate system->if move down 
+coordinate system->if move down x same y inc,
+coordinate system-> we dont use negative value 
 
 
 */
