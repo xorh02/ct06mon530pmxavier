@@ -66,8 +66,8 @@ function draw(){
         ballspeedy = -ballspeedy;
         if(colorchange){
         r = random(255); g = random(255);b = random(255);
-    }
-    fill(r,g,b);
+        }
+        fill(r,g,b);
     }
 }
 function keyPressed(){
