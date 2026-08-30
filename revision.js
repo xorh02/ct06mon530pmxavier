@@ -30,5 +30,6 @@ function draw(){
 
 /*revision notes
 css -> cascading style sheet
+heading in html -> h1 to h7
 
 */
