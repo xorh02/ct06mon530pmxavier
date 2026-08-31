@@ -56,29 +56,29 @@
 //     //first if for the left and right
 //     if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
 //         ballspeedx = -ballspeedx;
-//         if(colorchange){
-//         r = random(255);g = random(255);   b = random(255);
-//         }
-//         fill(r,g,b);
-//     }
-//     //second iff for the top and the bottom
-//     if(bally + (ballsize/2) > height || bally < ballsize/2){
-//         ballspeedy = -ballspeedy;
-//         if(colorchange){
-//         r = random(255); g = random(255);b = random(255);
-//         }
-//         fill(r,g,b);
-//     }
-// }
-// function keyPressed(){
-//     //task 4 speed control
-//     if(keyCode ===UP_ARROW){ ballspeedx *= 1.2; ballspeedy *=1.2;} 
-//     else if(keyCode ===DOWN_ARROW){ ballspeedx *= 0.8; ballspeedy *=0.8;}
-//     if(key === 'c' || key === 'C'){ colorchange = !colorchange;}
-//     if(key === 't' || key === 'T'){ trail = !trail;}
-//     if(key === '+'){ ballsize +=5;}
-//     if(key === '-'){ ballsize -=5;}
-// }
+         if(colorchange){
+         r = random(255);g = random(255);   b = random(255);
+         }
+         fill(r,g,b);
+     }
+     //second iff for the top and the bottom
+     if(bally + (ballsize/2) > height || bally < ballsize/2){
+         ballspeedy = -ballspeedy;
+         if(colorchange){
+         r = random(255); g = random(255);b = random(255);
+         }
+         fill(r,g,b);
+     }
+ }
+ function keyPressed(){
+     //task 4 speed control
+    if(keyCode ===UP_ARROW){ ballspeedx *= 1.2; ballspeedy *=1.2;} 
+    else if(keyCode ===DOWN_ARROW){ ballspeedx *= 0.8; ballspeedy *=0.8;}
+   if(key === 'c' || key === 'C'){ colorchange = !colorchange;}
+    if(key === 't' || key === 'T'){ trail = !trail;}
+    if(key === '+'){ ballsize +=5;}
+    if(key === '-'){ ballsize -=5;}
+ }
 
 // // function setup(){
 // //     createCanvas(600,400);
