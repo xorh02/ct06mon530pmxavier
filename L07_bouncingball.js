@@ -35,27 +35,27 @@
 // }
 
 
-// let ballx = 300;
-// let bally = 200;
-// let ballsize = 30;
-// let ballspeedx = 3;
-// let ballspeedy = 3;
-// let colorchange = false; let trail = false; let r=0; let g=0; let b=255;
-// function setup(){
-//     createCanvas(600,400);
-//     popSound.play();
-//     background(0);
-// }
-// function draw(){
-//     noStroke();
-//     if(!trail){background(220);}
-//     circle(ballx,bally,ballsize);
-//     ballx += ballspeedx;
-//     bally += ballspeedy;
-//     //task 2 condition for edge detection
-//     //first if for the left and right
-//     if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
-//         ballspeedx = -ballspeedx;
+ let ballx = 300;
+ let bally = 200;
+ let ballsize = 30;
+ let ballspeedx = 3;
+ let ballspeedy = 3;
+ let colorchange = false; let trail = false; let r=0; let g=0; let b=255;
+ function setup(){
+     createCanvas(600,400);
+     popSound.play();
+     background(0);
+ }
+ function draw(){
+     noStroke();
+     if(!trail){background(220);}
+     circle(ballx,bally,ballsize);
+     ballx += ballspeedx;
+     bally += ballspeedy;
+     //task 2 condition for edge detection
+     //first if for the left and right
+     if(ballx + (ballsize/2) >= width || ballx - (ballsize/2)<=0){
+         ballspeedx = -ballspeedx;
          if(colorchange){
          r = random(255);g = random(255);   b = random(255);
          }
